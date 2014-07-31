@@ -122,7 +122,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # end
 
   config.vm.provision "chef_solo" do |chef|
-	chef.log_level = :debug
+	chef.json = {
+		"set_fqdn" => aws_settings['aws']['hostname']
+	}
 	chef.cookbooks_path = "cookbooks/vendor"
 	chef.data_bags_path = "databags"
 	chef.add_recipe "tectonic-chef::default"
