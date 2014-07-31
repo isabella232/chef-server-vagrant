@@ -73,6 +73,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
      override.ssh.username = aws_settings['aws']['user']
      override.ssh.private_key_path = aws_settings['aws']['privkey']
      aws.associate_public_ip = true
+     config.vm.hostname = aws_settings['aws']['hostname']
      aws.tags = { 'Name' => 'Chef' }
   end
   #

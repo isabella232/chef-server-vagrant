@@ -1,4 +1,5 @@
 aws:
+  hostname : 'FQDN you will be using to access chef'
   apikey   : 'Your API key'
   apisecret: 'Your API secret key'
   region   : 'ap-southeast-2' 

@@ -15,3 +15,6 @@ include_recipe 'chef-server::default'
 
 #Include our log shipping agent
 include_recipe 'heka'
+
+#Set out hostname
+include_recipe 'hostname'
