@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'berkshelf' 
+gem 'vagrant-berkshelf'
+gem 'vagrant-omnibus'
+gem 'vagrant-aws'
+gem 'kitchen-vagrant'
+gem 'test-kitchen'

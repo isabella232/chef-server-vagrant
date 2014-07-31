@@ -1,0 +1,7 @@
+*.swp
+*.swo
+.vagrant
+Gemfile.lock
+Berksfile.lock
+aws.yaml
+cookbooks/vendor

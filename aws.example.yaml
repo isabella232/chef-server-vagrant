@@ -1,0 +1,11 @@
+aws:
+  apikey   : 'Your API key'
+  apisecret: 'Your API secret key'
+  region   : 'ap-southeast-2' 
+  keypair  : 'The AWS name of your keypair'
+  ami      : 'ami-ff3751c5'
+  size     : 't2.micro'
+  subnet   : 'VPC subnet ID'
+  az       : 'ap-southeast-2b'
+  user     : 'ubuntu'
+  privkey  : '/path/to/your/privatekey.pem'
